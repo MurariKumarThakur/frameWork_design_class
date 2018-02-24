@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FrameWorkSuite]">
+  <test name="basiccode(failed)">
+    <parameter name="BrowserName" value="chrome"/>
+    <classes>
+      <class name="TestCase.gamilLogin">
+        <methods>
+          <include name="loginGmail"/>
+          <include name="getMethodName"/>
+          <include name="OpenBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="takeFailureTestCase"/>
+        </methods>
+      </class> <!-- TestCase.gamilLogin -->
+      <class name="TestCase.facebookLogin">
+        <methods>
+          <include name="loginFacebook"/>
+          <include name="getMethodName"/>
+          <include name="OpenBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="takeFailureTestCase"/>
+        </methods>
+      </class> <!-- TestCase.facebookLogin -->
+    </classes>
+  </test> <!-- basiccode(failed) -->
+</suite> <!-- Failed suite [FrameWorkSuite] -->

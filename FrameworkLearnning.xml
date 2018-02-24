@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FrameWorkSuite">
+  <test  name="basiccode">
+  
+  <parameter name="BrowserName" value="chrome"/>  
+    
+      <classes>
+         <!--   <class name="DriverEngine.driverEngine"></class> -->
+          <class name="TestCase.gamilLogin"/>
+          <class name="TestCase.facebookLogin"/>
+    </classes>
+   </test> <!-- basiccode -->
+  </suite> <!-- FrameWorkSuite -->
