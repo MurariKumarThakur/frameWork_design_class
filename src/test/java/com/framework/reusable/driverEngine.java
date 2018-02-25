@@ -1,4 +1,4 @@
-package DriverEngine;
+package com.framework.reusable;
 
 import java.io.File;
 
@@ -29,7 +29,7 @@ import org.testng.annotations.Parameters;
 
 
 public class driverEngine {
-	public static  RemoteWebDriver driver;
+	 private static RemoteWebDriver driver;
 	
 	@Parameters("BrowserName")
 	@BeforeSuite
@@ -129,7 +129,10 @@ public class driverEngine {
 	 // =========== Access private Method ==========
 	 
 	 
-	
+	 public static RemoteWebDriver getDriver(){
+		 
+		 return driver ;
+	 }
 	 
 	 
 	 
