@@ -116,7 +116,7 @@ public class driverEngine {
 	 }
 	 
 	 @AfterMethod
-	 public void takeFailureTestCase (ITestResult result ){
+	 public void takeFailureTestCaseScreenShot (ITestResult result ){
 		 
 		if(result.getStatus() == ITestResult.FAILURE){
 			
