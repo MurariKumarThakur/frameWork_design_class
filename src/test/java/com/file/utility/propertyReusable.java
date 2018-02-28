@@ -11,7 +11,7 @@ import java.util.Properties;
 import java.util.Set;
 
 
-public class propertyReusable<K, V> {
+public class propertyReusable  {
 	 private FileInputStream fis ;
 	  Properties property = new Properties ();
 	         String filePath ;

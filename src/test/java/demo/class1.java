@@ -16,7 +16,7 @@ public class class1 {
 		String gmail_login_id = object.getPropertyFileValue("gmail_userField_By_Id");
 
 		System.out.println(gmail_login_id);
-		System.out.println(url1);
+		
 		
 		object.SetProperty("gamil_navigation_button_By_name", "navi");
 		
