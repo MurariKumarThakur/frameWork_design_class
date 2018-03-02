@@ -11,12 +11,12 @@ import java.util.Properties;
 import java.util.Set;
 
 
-public class propertyReusable  {
+public class propertyFileReusable  {
 	 private FileInputStream fis ;
 	  Properties property = new Properties ();
 	         String filePath ;
 	         String value ;
-	public propertyReusable(String filePath) throws IOException{
+	public propertyFileReusable(String filePath) throws IOException{
 	
 		 this.filePath = filePath;
 		

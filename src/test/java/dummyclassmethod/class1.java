@@ -3,15 +3,15 @@ package dummyclassmethod;
 import java.io.IOException;
 import java.util.Map;
 
-import com.file.utility.propertyReusable;
+import com.file.utility.propertyFileReusable;
 
 public class class1 {
 
 	public static void main(String[] args) throws IOException {
 
-		propertyReusable config = new propertyReusable("./config.property");
+		propertyFileReusable config = new propertyFileReusable("./config.property");
 		String url1 = config.getPropertyFileValue("url");
-		propertyReusable object = new propertyReusable("./src/test/java/com/app/objectRepository/OR.gamil.properties");
+		propertyFileReusable object = new propertyFileReusable("./src/test/java/com/app/objectRepository/OR.gamil.properties");
 		System.out.println(url1);
 		String gmail_login_id = object.getPropertyFileValue("gmail_userField_By_Id");
 
