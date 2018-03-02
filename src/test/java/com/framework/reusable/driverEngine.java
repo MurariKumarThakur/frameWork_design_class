@@ -35,7 +35,7 @@ public class driverEngine {
 
 
 
-
+  public  static seleniumReusable selenium = new seleniumReusable();
 	 private static RemoteWebDriver driver;
 	 WebDriverWait wait ;
 	
