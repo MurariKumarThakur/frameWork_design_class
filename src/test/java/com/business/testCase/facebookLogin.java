@@ -1,15 +1,24 @@
 package com.business.testCase;
 
+import java.io.IOException;
+
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
+import com.file.utility.propertyFileReusable;
 import com.framework.reusable.driverEngine;
 
 public class facebookLogin  extends driverEngine {
+	
+
+
 	@Test
-	public void loginFacebook(){
+	public void loginFacebook(By  passLocator) throws IOException{
 		
-		 getDriver().get("https://www.facebook.com");
-		 getDriver().findElementById("emai").sendKeys("murariraj.two@gmail.com");
+		propertyFileReusable data = new propertyFileReusable("./src/test/java/com/app/objectRepository/OR.gamil.properties");
 		
+		     getDriver().get(data.getPropertyFileValue("url"));
+		 
+	      
 	}
 }

@@ -56,7 +56,7 @@ public class propertyFileReusable  {
             	 
             	 String value = property.getProperty(keydata);
             	 
-         	  map.put(keydata, value);
+         	    map.put(keydata, value);
         
               
             	
@@ -71,4 +71,6 @@ public class propertyFileReusable  {
     	 
     	 
      }
+   
 }
+

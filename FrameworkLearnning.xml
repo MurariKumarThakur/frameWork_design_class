@@ -7,8 +7,8 @@
     
       <classes>
          <!--   <class name="DriverEngine.driverEngine"></class> -->
-          <class name="TestCase.gamilLogin"/>
-          <class name="TestCase.facebookLogin"/>
+          <class name="dummyProject.flipcartTestCaseAutomation"/>
+          
     </classes>
    </test> <!-- basiccode -->
   </suite> <!-- FrameWorkSuite -->

@@ -1,16 +1,15 @@
 package com.framework.reusable;
 
 import java.io.File;
-
+import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
-
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-
-
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -18,6 +17,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
 
 import org.openqa.selenium.remote.RemoteWebDriver;
+
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -28,8 +29,15 @@ import org.testng.annotations.Parameters;
 
 
 
+
 public class driverEngine {
+	
+
+
+
+
 	 private static RemoteWebDriver driver;
+	 WebDriverWait wait ;
 	
 	@Parameters("BrowserName")
 	@BeforeSuite
@@ -101,6 +109,17 @@ public class driverEngine {
 		 
 		 
 	 }
+	@AfterMethod 
+	 public void getMethodName2(Method m){
+		 
+		String dyanamicTestCaseName =  m.getName();
+		
+		System.out.println(dyanamicTestCaseName+"==== TEST CASE EXECUTION End");
+		 
+		 
+	 }
+	
+	
 //=========== TakeSceenShot ===================
 	 public void takeScreenShot(String FailureTestCaseName){
 		 
@@ -135,8 +154,6 @@ public class driverEngine {
 	 }
 	 
 	 
-	 
-	 
-	 
-	  
-} 
+}
+
+

@@ -85,21 +85,17 @@ public class textFileReusable {
 				value = br.readLine();
 
 				list.add(value);
-				
-			if(	list.size() == 2){
-				
-				System.out.println("2nd value is "+br.readLine());
-			}
+
+				if (list.size() == 2) {
+
+					System.out.println("2nd value is " + br.readLine());
+				}
 
 			}
 
 		}
 		return list;
 
-	}
-	public static void main(String[] args) throws IOException {
-		textFileReusable reuse = new textFileReusable("./src/test/java/TextFileFolder/textFile.txt");
-		 reuse.getAllTextFileData();
 	}
 
 }
