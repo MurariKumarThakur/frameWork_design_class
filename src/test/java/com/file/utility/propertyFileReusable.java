@@ -16,15 +16,27 @@ public class propertyFileReusable  {
 	  Properties property = new Properties ();
 	         String filePath ;
 	         String value ;
-	public propertyFileReusable(String filePath) throws IOException{
+	public propertyFileReusable(String filePath) {
 	
 		 this.filePath = filePath;
 		
-	  FileInputStream fis = new FileInputStream(filePath);
-	  
-		   	if(fis !=null){
-		    property.load(fis);
+	  FileInputStream fis;
+	try {
+		fis = new FileInputStream(filePath);
+	  	if(fis !=null){
+		    try {
+				property.load(fis);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		   	}
+	} catch (FileNotFoundException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	  
+		 
 	}
      public String getPropertyFileValue(String enterKey){
     	 
