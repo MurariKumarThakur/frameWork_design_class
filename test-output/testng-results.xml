@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14917" started-at="2018-03-02T12:32:02Z" finished-at="2018-03-02T12:32:16Z">
+  <suite name="FrameWorkSuite" duration-ms="287535" started-at="2018-03-04T17:11:00Z" finished-at="2018-03-04T17:15:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14917" started-at="2018-03-02T12:32:02Z" finished-at="2018-03-02T12:32:16Z">
+    <test name="chrome" duration-ms="287535" started-at="2018-03-04T17:11:00Z" finished-at="2018-03-04T17:15:48Z">
       <class name="dummyProject.flipcartTestCaseAutomation">
-        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@71318ec4]" name="OpenBrowser" is-config="true" duration-ms="5348" started-at="2018-03-02T18:01:56Z" finished-at="2018-03-02T18:02:02Z">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="OpenBrowser" is-config="true" duration-ms="15266" started-at="2018-03-04T22:40:45Z" finished-at="2018-03-04T22:41:00Z">
           <params>
             <param index="0">
               <value>
@@ -18,22 +18,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="enterFlipCartUrl()[pri:1, instance:dummyProject.flipcartTestCaseAutomation@71318ec4]" name="enterFlipCartUrl" duration-ms="14882" started-at="2018-03-02T18:02:02Z" finished-at="2018-03-02T18:02:16Z">
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="getMethodName" is-config="true" duration-ms="0" started-at="2018-03-04T22:41:00Z" finished-at="2018-03-04T22:41:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.enterFlipCartUrl() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="enterFlipCartUrl()[pri:1, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="enterFlipCartUrl" duration-ms="75933" started-at="2018-03-04T22:41:00Z" finished-at="2018-03-04T22:42:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterFlipCartUrl -->
-        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@71318ec4]" name="getMethodName" is-config="true" duration-ms="0" started-at="2018-03-02T18:02:02Z" finished-at="2018-03-02T18:02:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.enterFlipCartUrl() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getMethodName -->
-        <test-method status="PASS" signature="getMethodName2(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@71318ec4]" name="getMethodName2" is-config="true" duration-ms="0" started-at="2018-03-02T18:02:16Z" finished-at="2018-03-02T18:02:16Z">
+        <test-method status="PASS" signature="getMethodName2(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="getMethodName2" is-config="true" duration-ms="1" started-at="2018-03-04T22:42:16Z" finished-at="2018-03-04T22:42:16Z">
           <params>
             <param index="0">
               <value>
@@ -44,59 +44,339 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMethodName2 -->
-        <test-method status="PASS" signature="takeFailureTestCaseScreenShot(org.testng.ITestResult)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@71318ec4]" name="takeFailureTestCaseScreenShot" is-config="true" duration-ms="1" started-at="2018-03-02T18:02:16Z" finished-at="2018-03-02T18:02:16Z">
+        <test-method status="PASS" signature="takeFailureTestCaseScreenShot(org.testng.ITestResult)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="takeFailureTestCaseScreenShot" is-config="true" duration-ms="0" started-at="2018-03-04T22:42:16Z" finished-at="2018-03-04T22:42:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=enterFlipCartUrl status=SUCCESS method=flipcartTestCaseAutomation.enterFlipCartUrl()[pri:1, instance:dummyProject.flipcartTestCaseAutomation@71318ec4] output={null}]]]>
+                <![CDATA[[TestResult name=enterFlipCartUrl status=SUCCESS method=flipcartTestCaseAutomation.enterFlipCartUrl()[pri:1, instance:dummyProject.flipcartTestCaseAutomation@52a86356] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeFailureTestCaseScreenShot -->
-        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@71318ec4]" name="getMethodName" is-config="true" duration-ms="0" started-at="2018-03-02T18:02:16Z" finished-at="2018-03-02T18:02:16Z">
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="getMethodName" is-config="true" duration-ms="1" started-at="2018-03-04T22:42:16Z" finished-at="2018-03-04T22:42:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.mouseOverOnElectronic_StoreTextInTextFile()]]>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.mouseOverOnElectronic_StoreTextInTextFile(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMethodName -->
-        <test-method status="PASS" signature="mouseOverOnElectronic_StoreTextInTextFile()[pri:2, instance:dummyProject.flipcartTestCaseAutomation@71318ec4]" name="mouseOverOnElectronic_StoreTextInTextFile" duration-ms="2" started-at="2018-03-02T18:02:16Z" finished-at="2018-03-02T18:02:16Z">
+        <test-method status="PASS" signature="mouseOverOnElectronic_StoreTextInTextFile(java.lang.reflect.Method)[pri:2, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="mouseOverOnElectronic_StoreTextInTextFile" duration-ms="8030" started-at="2018-03-04T22:42:16Z" finished-at="2018-03-04T22:42:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.mouseOverOnElectronic_StoreTextInTextFile(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mouseOverOnElectronic_StoreTextInTextFile -->
-        <test-method status="PASS" signature="getMethodName2(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@71318ec4]" name="getMethodName2" is-config="true" duration-ms="1" started-at="2018-03-02T18:02:16Z" finished-at="2018-03-02T18:02:16Z">
+        <test-method status="PASS" signature="getMethodName2(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="getMethodName2" is-config="true" duration-ms="1" started-at="2018-03-04T22:42:24Z" finished-at="2018-03-04T22:42:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.mouseOverOnElectronic_StoreTextInTextFile()]]>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.mouseOverOnElectronic_StoreTextInTextFile(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMethodName2 -->
-        <test-method status="PASS" signature="takeFailureTestCaseScreenShot(org.testng.ITestResult)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@71318ec4]" name="takeFailureTestCaseScreenShot" is-config="true" duration-ms="1" started-at="2018-03-02T18:02:16Z" finished-at="2018-03-02T18:02:16Z">
+        <test-method status="PASS" signature="takeFailureTestCaseScreenShot(org.testng.ITestResult)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="takeFailureTestCaseScreenShot" is-config="true" duration-ms="0" started-at="2018-03-04T22:42:24Z" finished-at="2018-03-04T22:42:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=mouseOverOnElectronic_StoreTextInTextFile status=SUCCESS method=flipcartTestCaseAutomation.mouseOverOnElectronic_StoreTextInTextFile()[pri:2, instance:dummyProject.flipcartTestCaseAutomation@71318ec4] output={null}]]]>
+                <![CDATA[[TestResult name=mouseOverOnElectronic_StoreTextInTextFile status=SUCCESS method=flipcartTestCaseAutomation.mouseOverOnElectronic_StoreTextInTextFile(java.lang.reflect.Method)[pri:2, instance:dummyProject.flipcartTestCaseAutomation@52a86356] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeFailureTestCaseScreenShot -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:dummyProject.flipcartTestCaseAutomation@71318ec4]" name="closeBrowser" is-config="true" duration-ms="704" started-at="2018-03-02T18:02:16Z" finished-at="2018-03-02T18:02:17Z">
+        <test-method status="PASS" signature="selectPriceRange(java.lang.reflect.Method)[pri:3, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="selectPriceRange" duration-ms="1906" started-at="2018-03-04T22:42:24Z" finished-at="2018-03-04T22:42:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.selectPriceRange(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPriceRange -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="getMethodName" is-config="true" duration-ms="0" started-at="2018-03-04T22:42:24Z" finished-at="2018-03-04T22:42:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.selectPriceRange(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="getMethodName2(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="getMethodName2" is-config="true" duration-ms="1" started-at="2018-03-04T22:42:26Z" finished-at="2018-03-04T22:42:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.selectPriceRange(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName2 -->
+        <test-method status="PASS" signature="takeFailureTestCaseScreenShot(org.testng.ITestResult)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="takeFailureTestCaseScreenShot" is-config="true" duration-ms="0" started-at="2018-03-04T22:42:26Z" finished-at="2018-03-04T22:42:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectPriceRange status=SUCCESS method=flipcartTestCaseAutomation.selectPriceRange(java.lang.reflect.Method)[pri:3, instance:dummyProject.flipcartTestCaseAutomation@52a86356] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFailureTestCaseScreenShot -->
+        <test-method status="PASS" signature="selectMobileBrandAsSamsung(java.lang.reflect.Method)[pri:4, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="selectMobileBrandAsSamsung" duration-ms="1490" started-at="2018-03-04T22:42:26Z" finished-at="2018-03-04T22:42:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.selectMobileBrandAsSamsung(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMobileBrandAsSamsung -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="getMethodName" is-config="true" duration-ms="0" started-at="2018-03-04T22:42:26Z" finished-at="2018-03-04T22:42:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.selectMobileBrandAsSamsung(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="getMethodName2(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="getMethodName2" is-config="true" duration-ms="1" started-at="2018-03-04T22:42:28Z" finished-at="2018-03-04T22:42:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.selectMobileBrandAsSamsung(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName2 -->
+        <test-method status="PASS" signature="takeFailureTestCaseScreenShot(org.testng.ITestResult)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="takeFailureTestCaseScreenShot" is-config="true" duration-ms="1" started-at="2018-03-04T22:42:28Z" finished-at="2018-03-04T22:42:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectMobileBrandAsSamsung status=SUCCESS method=flipcartTestCaseAutomation.selectMobileBrandAsSamsung(java.lang.reflect.Method)[pri:4, instance:dummyProject.flipcartTestCaseAutomation@52a86356] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFailureTestCaseScreenShot -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="getMethodName" is-config="true" duration-ms="0" started-at="2018-03-04T22:42:28Z" finished-at="2018-03-04T22:42:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.checkAllSamsungMobileDisplayOrNot()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="checkAllSamsungMobileDisplayOrNot()[pri:5, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="checkAllSamsungMobileDisplayOrNot" duration-ms="3889" started-at="2018-03-04T22:42:28Z" finished-at="2018-03-04T22:42:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAllSamsungMobileDisplayOrNot -->
+        <test-method status="PASS" signature="getMethodName2(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="getMethodName2" is-config="true" duration-ms="0" started-at="2018-03-04T22:42:32Z" finished-at="2018-03-04T22:42:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.checkAllSamsungMobileDisplayOrNot()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName2 -->
+        <test-method status="PASS" signature="takeFailureTestCaseScreenShot(org.testng.ITestResult)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="takeFailureTestCaseScreenShot" is-config="true" duration-ms="0" started-at="2018-03-04T22:42:32Z" finished-at="2018-03-04T22:42:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkAllSamsungMobileDisplayOrNot status=SUCCESS method=flipcartTestCaseAutomation.checkAllSamsungMobileDisplayOrNot()[pri:5, instance:dummyProject.flipcartTestCaseAutomation@52a86356] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFailureTestCaseScreenShot -->
+        <test-method status="PASS" signature="ClickOnFistSamsungMobileIfItIsNotOutOfStock()[pri:6, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="ClickOnFistSamsungMobileIfItIsNotOutOfStock" duration-ms="26545" started-at="2018-03-04T22:42:32Z" finished-at="2018-03-04T22:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnFistSamsungMobileIfItIsNotOutOfStock -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="getMethodName" is-config="true" duration-ms="0" started-at="2018-03-04T22:42:32Z" finished-at="2018-03-04T22:42:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.ClickOnFistSamsungMobileIfItIsNotOutOfStock()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="takeFailureTestCaseScreenShot(org.testng.ITestResult)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="takeFailureTestCaseScreenShot" is-config="true" duration-ms="0" started-at="2018-03-04T22:42:58Z" finished-at="2018-03-04T22:42:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnFistSamsungMobileIfItIsNotOutOfStock status=SUCCESS method=flipcartTestCaseAutomation.ClickOnFistSamsungMobileIfItIsNotOutOfStock()[pri:6, instance:dummyProject.flipcartTestCaseAutomation@52a86356] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFailureTestCaseScreenShot -->
+        <test-method status="PASS" signature="getMethodName2(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="getMethodName2" is-config="true" duration-ms="0" started-at="2018-03-04T22:42:58Z" finished-at="2018-03-04T22:42:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.ClickOnFistSamsungMobileIfItIsNotOutOfStock()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName2 -->
+        <test-method status="PASS" signature="addMobileToCart()[pri:7, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="addMobileToCart" duration-ms="14110" started-at="2018-03-04T22:42:58Z" finished-at="2018-03-04T22:43:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMobileToCart -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="getMethodName" is-config="true" duration-ms="0" started-at="2018-03-04T22:42:58Z" finished-at="2018-03-04T22:42:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.addMobileToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="getMethodName2(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="getMethodName2" is-config="true" duration-ms="0" started-at="2018-03-04T22:43:12Z" finished-at="2018-03-04T22:43:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.addMobileToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName2 -->
+        <test-method status="PASS" signature="takeFailureTestCaseScreenShot(org.testng.ITestResult)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="takeFailureTestCaseScreenShot" is-config="true" duration-ms="1" started-at="2018-03-04T22:43:12Z" finished-at="2018-03-04T22:43:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addMobileToCart status=SUCCESS method=flipcartTestCaseAutomation.addMobileToCart()[pri:7, instance:dummyProject.flipcartTestCaseAutomation@52a86356] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFailureTestCaseScreenShot -->
+        <test-method status="PASS" signature="placeOrder()[pri:8, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="placeOrder" duration-ms="151223" started-at="2018-03-04T22:43:12Z" finished-at="2018-03-04T22:45:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="getMethodName" is-config="true" duration-ms="0" started-at="2018-03-04T22:43:12Z" finished-at="2018-03-04T22:43:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.placeOrder()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="getMethodName2(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="getMethodName2" is-config="true" duration-ms="0" started-at="2018-03-04T22:45:44Z" finished-at="2018-03-04T22:45:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.placeOrder()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName2 -->
+        <test-method status="PASS" signature="takeFailureTestCaseScreenShot(org.testng.ITestResult)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="takeFailureTestCaseScreenShot" is-config="true" duration-ms="0" started-at="2018-03-04T22:45:44Z" finished-at="2018-03-04T22:45:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeOrder status=SUCCESS method=flipcartTestCaseAutomation.placeOrder()[pri:8, instance:dummyProject.flipcartTestCaseAutomation@52a86356] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFailureTestCaseScreenShot -->
+        <test-method status="PASS" signature="enterMobileOrPhoneNumber()[pri:9, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="enterMobileOrPhoneNumber" duration-ms="4059" started-at="2018-03-04T22:45:44Z" finished-at="2018-03-04T22:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterMobileOrPhoneNumber -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="getMethodName" is-config="true" duration-ms="0" started-at="2018-03-04T22:45:44Z" finished-at="2018-03-04T22:45:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.enterMobileOrPhoneNumber()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="getMethodName2(java.lang.reflect.Method)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="getMethodName2" is-config="true" duration-ms="0" started-at="2018-03-04T22:45:48Z" finished-at="2018-03-04T22:45:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.flipcartTestCaseAutomation.enterMobileOrPhoneNumber()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName2 -->
+        <test-method status="PASS" signature="takeFailureTestCaseScreenShot(org.testng.ITestResult)[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="takeFailureTestCaseScreenShot" is-config="true" duration-ms="1" started-at="2018-03-04T22:45:48Z" finished-at="2018-03-04T22:45:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterMobileOrPhoneNumber status=SUCCESS method=flipcartTestCaseAutomation.enterMobileOrPhoneNumber()[pri:9, instance:dummyProject.flipcartTestCaseAutomation@52a86356] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFailureTestCaseScreenShot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:dummyProject.flipcartTestCaseAutomation@52a86356]" name="closeBrowser" is-config="true" duration-ms="8148" started-at="2018-03-04T22:45:54Z" finished-at="2018-03-04T22:46:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- dummyProject.flipcartTestCaseAutomation -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- chrome -->
+  </suite> <!-- FrameWorkSuite -->
 </testng-results>

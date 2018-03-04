@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="FrameWorkSuite">
-  <test  name="basiccode">
+<suite name="FrameWorkSuite" parallel="none">
   
-  <parameter name="BrowserName" value="chrome"/>  
-    
+     <parameter name="BrowserName" value="chrome"/> 
+  
+    <test  name="chrome"> 
+ 
       <classes>
          <!--   <class name="DriverEngine.driverEngine"></class> -->
           <class name="dummyProject.flipcartTestCaseAutomation"/>
           
     </classes>
-   </test> <!-- basiccode -->
+ </test> <!-- basiccode -->  
   </suite> <!-- FrameWorkSuite -->

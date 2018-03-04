@@ -9,7 +9,7 @@ public class gamilLogin extends driverEngine {
 	public void loginGmail(){
 		
 		getDriver().get("https://www.gmail.com");
-		getDriver().findElementById("identifierI").sendKeys("murariraj.two@gmail.com");
+		getDriver().findElementById("identifierId").sendKeys("murariraj.two@gmail.com");
 		
 	}
 

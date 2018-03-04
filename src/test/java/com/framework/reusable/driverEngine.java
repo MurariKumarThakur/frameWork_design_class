@@ -22,8 +22,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
@@ -42,7 +44,7 @@ public class driverEngine {
 	@Parameters("BrowserName")
 	@BeforeSuite
 
-	public void OpenBrowser(@Optional("chrome") String BrowserName) {
+	public void OpenBrowser( String BrowserName) {
 
 		if (BrowserName.equalsIgnoreCase("chrome")) {
 
@@ -56,7 +58,7 @@ public class driverEngine {
 			driver = new FirefoxDriver();
 
 			basicInitialization();
-		} else if (BrowserName.equalsIgnoreCase("internetExplorer")) {
+		} else if (BrowserName.equalsIgnoreCase("ie")) {
 
 			System.setProperty("webdriver.ie.driver", "./browserDrivercontainer/IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
@@ -94,7 +96,7 @@ public class driverEngine {
     	
     	 if(driver != null){
     		 
-    		 driver.close();
+    		 driver.quit();
     	 }else{
     		 
     		 System.out.println("DRIVER IS NOT HOLDING ANY VALUE CHECK ONCE");
