@@ -48,6 +48,21 @@ public class excelFileReusable {
 		
 		
 	}
+	
+	public int  TotalRowNumber(String sheetName){
+		
+		 int rowNumber =0;
+		
+		 Sheet  sheet = null ;
+		   if(workbook!=null){
+			 rowNumber =   getSheet(sheetName).getLastRowNum();
+		  
+		   }
+		return rowNumber;
+		 
+		
+		
+	}
   public Sheet getSheetAt(int sheetIndex){
 	
 	  Sheet sheet = null ;
@@ -118,13 +133,91 @@ public class excelFileReusable {
     	  }
     	return list ;
     }
+    
+    
+    
+    
+    public String getCellData(String sheetName, String colName, int rowNum) {
+		
+    	
+		
+		try {
+			
+			//TotalRowNumber(sheetName);
+		
+			int col_Num = 0;
+			
+			
+		     Row row = getSheet(sheetName).getRow(0);
+			for (int i = 0; i < row.getLastCellNum(); i++) {
+				if (row.getCell(i).getStringCellValue().equals(colName)) {
+					col_Num = i;
+					
+					row = getSheet(sheetName).getRow(rowNum);
+					Cell cell = row.getCell(col_Num);
+						if (cell.getCellType() == Cell.CELL_TYPE_STRING) {
+							
+						//	System.out.println(cell.getStringCellValue());
+							return cell.getStringCellValue();
+						} else if (cell.getCellType() == Cell.CELL_TYPE_NUMERIC) {
+							return String.valueOf(cell.getNumericCellValue());
+						} else if (cell.getCellType() == Cell.CELL_TYPE_BOOLEAN) {
+							return String.valueOf(cell.getBooleanCellValue());
+						} else if (cell.getCellType() == Cell.CELL_TYPE_BLANK) {
+							return "";
+						}
+
+				}else{
+					//System.out.println("CHECK NAME NOT MATCHING ");
+				}
+			}
+	
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return null;
+	}
+	
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
        public static void main(String[] args) {
     	   
     	   excelFileReusable read = new excelFileReusable("./src/test/java/com/testData/TestData.xlsx");
     	  // String cell2 = read.getSheet("Sheet1").getRow(0).getCell(0).getStringCellValue();
     	// String   cell  = read.getCell("Sheet1", 0, 0).getStringCellValue();
-    	  
-         System.out.println(read.getAllExcelCellValue("Sheet1"));
-		
+    	  for(int m=1;m<=read.TotalRowNumber("Sheet1");m++){
+    	   read.getCellData("Sheet1", "Name", m);
+    	  read.getCellData("Sheet1", "Tools", m);
+    	  }
 	}
 }

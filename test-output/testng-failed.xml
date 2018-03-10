@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [FrameWorkSuite]">
-  <test name="ie(failed)">
-    <parameter name="BrowserName" value="ie"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.business.testCase.gamilLogin">
+      <class name="dummyclassmethod.facebook_login">
         <methods>
-          <include name="getMethodName2"/>
-          <include name="takeFailureTestCaseScreenShot"/>
-          <include name="loginGmail"/>
-          <include name="getMethodName"/>
-          <include name="closeBrowser"/>
-          <include name="OpenBrowser"/>
+          <include name="facebookloginwithMulitpledata"/>
         </methods>
-      </class> <!-- com.business.testCase.gamilLogin -->
+      </class> <!-- dummyclassmethod.facebook_login -->
     </classes>
-  </test> <!-- ie(failed) -->
-</suite> <!-- Failed suite [FrameWorkSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

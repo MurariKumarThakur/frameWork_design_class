@@ -3,16 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.business.testCase.facebookLogin">
+      <class name="dummyclassmethod.facebook_login">
         <methods>
-          <include name="loginFacebook"/>
-          <include name="getMethodName2"/>
-          <include name="takeFailureTestCaseScreenShot"/>
-          <include name="getMethodName"/>
-          <include name="closeBrowser"/>
-          <include name="OpenBrowser"/>
+          <include name="facebookloginwithMulitpledata"/>
         </methods>
-      </class> <!-- com.business.testCase.facebookLogin -->
+      </class> <!-- dummyclassmethod.facebook_login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
