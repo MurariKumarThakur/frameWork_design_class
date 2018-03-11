@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FrameWorkSuite]">
+  <parameter name="BrowserName" value="chrome"/>
+  <test name="chrome(failed)">
     <classes>
-      <class name="dummyclassmethod.facebook_login">
+      <class name="com.business.testCase.gamilLogin">
         <methods>
-          <include name="facebookloginwithMulitpledata"/>
+          <include name="afterMethod"/>
+          <include name="loginGmail2"/>
+          <include name="closeBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="afterClass"/>
+          <include name="loginGmail3"/>
+          <include name="getloggerData"/>
         </methods>
-      </class> <!-- dummyclassmethod.facebook_login -->
+      </class> <!-- com.business.testCase.gamilLogin -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- chrome(failed) -->
+</suite> <!-- Failed suite [FrameWorkSuite] -->

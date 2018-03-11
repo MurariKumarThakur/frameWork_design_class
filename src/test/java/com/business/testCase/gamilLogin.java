@@ -12,5 +12,19 @@ public class gamilLogin extends driverEngine {
 		getDriver().findElementById("identifierId").sendKeys("murariraj.two@gmail.com");
 		
 	}
-
+	@Test
+public void loginGmail2(){
+		
+		getDriver().findElementById("identifierId").clear();
+		getDriver().findElementById("identifierI").sendKeys("murariraj.two@gmail.com");
+		
+	}
+	
+	@Test
+	public void loginGmail3(){
+			
+			getDriver().findElementById("identifierId").clear();
+			getDriver().findElementById("identifierI").sendKeys("murariraj.two@gmail.com");
+			
+		}
 }

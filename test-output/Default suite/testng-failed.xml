@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="dummyclassmethod.facebook_login">
+      <class name="com.report.utility.extentReport">
         <methods>
-          <include name="facebookloginwithMulitpledata"/>
+          <include name="launchBrowser"/>
+          <include name="facebookLogin"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- dummyclassmethod.facebook_login -->
+      </class> <!-- com.report.utility.extentReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

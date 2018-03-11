@@ -8,7 +8,7 @@
  
       <classes>
          <!--   <class name="DriverEngine.driverEngine"></class> -->
-          <class name="dummyProject.flipcartTestCaseAutomation"/>
+          <class name="com.business.testCase.gamilLogin"/>
           
     </classes>
  </test> <!-- basiccode -->  

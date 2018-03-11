@@ -1,4 +1,4 @@
-package dummyclassmethod;
+package dummyProject;
 
 import java.util.concurrent.TimeUnit;
 
@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import com.file.utility.excelFileReusable;
 import com.object.utility.objectUtility;
 
-public class facebook_login {
+public class facebook_login_With_MultipleData {
 
 	WebDriver driver;
 
@@ -25,7 +25,7 @@ public class facebook_login {
 	@AfterClass
 	public void closeBrowser(){
 		
-		driver.close();
+		//driver.close();
 	}
 
 	public void facebookWithMultipleData(String userName, String password) {

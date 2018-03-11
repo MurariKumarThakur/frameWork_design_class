@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [FrameWorkSuite]">
-  <test name="ie(failed)">
-    <parameter name="BrowserName" value="ie"/>
+  <parameter name="BrowserName" value="chrome"/>
+  <test name="chrome(failed)">
     <classes>
       <class name="com.business.testCase.gamilLogin">
         <methods>
-          <include name="getMethodName2"/>
-          <include name="takeFailureTestCaseScreenShot"/>
-          <include name="loginGmail"/>
-          <include name="getMethodName"/>
+          <include name="afterMethod"/>
+          <include name="loginGmail2"/>
           <include name="closeBrowser"/>
           <include name="OpenBrowser"/>
+          <include name="afterClass"/>
+          <include name="loginGmail3"/>
+          <include name="getloggerData"/>
         </methods>
       </class> <!-- com.business.testCase.gamilLogin -->
     </classes>
-  </test> <!-- ie(failed) -->
+  </test> <!-- chrome(failed) -->
 </suite> <!-- Failed suite [FrameWorkSuite] -->

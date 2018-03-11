@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="181089" started-at="2018-03-10T02:20:37Z" finished-at="2018-03-10T02:23:38Z">
+  <suite name="Default suite" duration-ms="34635" started-at="2018-03-11T01:57:39Z" finished-at="2018-03-11T01:58:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="181089" started-at="2018-03-10T02:20:37Z" finished-at="2018-03-10T02:23:38Z">
-      <class name="dummyclassmethod.facebook_login">
-        <test-method status="PASS" signature="facebookloginwithMulitpledata()[pri:0, instance:dummyclassmethod.facebook_login@548e7350]" name="facebookloginwithMulitpledata" duration-ms="180621" started-at="2018-03-10T07:50:37Z" finished-at="2018-03-10T07:53:38Z">
+    <test name="Default test" duration-ms="34635" started-at="2018-03-11T01:57:39Z" finished-at="2018-03-11T01:58:14Z">
+      <class name="dummyProject.facebook_login_With_MultipleData">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:dummyProject.facebook_login_With_MultipleData@13deb50e]" name="launchBrowser" is-config="true" duration-ms="11396" started-at="2018-03-11T07:27:39Z" finished-at="2018-03-11T07:27:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="facebookloginwithMulitpledata()[pri:0, instance:dummyProject.facebook_login_With_MultipleData@13deb50e]" name="facebookloginwithMulitpledata" duration-ms="23159" started-at="2018-03-11T07:27:51Z" finished-at="2018-03-11T07:28:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebookloginwithMulitpledata -->
-      </class> <!-- dummyclassmethod.facebook_login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:dummyProject.facebook_login_With_MultipleData@13deb50e]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2018-03-11T07:28:14Z" finished-at="2018-03-11T07:28:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dummyProject.facebook_login_With_MultipleData -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
